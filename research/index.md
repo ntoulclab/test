@@ -16,7 +16,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {%
   include feature.html
-  image="images/crazyflie.gif"
+  image="images/background.jpg"
   title=""
   flip=true
   text=text
