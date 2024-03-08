@@ -1,65 +1,80 @@
 ---
-title: Research
+title: Home
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Homepage
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
-
-## Control of Multi-Agent System 多代理人系統控制
-
-{% capture text %}
-Cooperative Control of MAS  
-
-Formation Control of UAVs  
-
-Multi-UAV System Design and Applications  
-
-Nonlinear and Adaptive Control Theory
-
+# NTOU Learning Control Lab
 {% endcapture %}
+
 {%
   include feature.html
   image="images/crazyflie.gif"
   title=""
-  flip=true
   text=text
 %}
+歡迎蒞臨 國立台灣海洋大學電機工程學系 學習控制實驗室
+
+本實驗室主要著重於控制工程領域之研究，包含無人載具系統控制與多代理人系統協同合作控制以及強化學習控制
+
+Welcome to the Learning Control Laboratory of the Department of Electrical Engineering, National Taiwan Ocean University.
+
+This laboratory primarily focuses on research in the field of control engineering, including unmanned vehicle system control, multi-agent system cooperative control, and reinforcement learning control.
 
 
-## Development of Unmanned Vehicle System 無人載具系統發展
 
+{% include section.html %}
+
+<!--
 {% capture text %}
-Robot Operating System (ROS)  
 
-Automated Driving System (ADS)  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-Autonomous Moving Robot (AMR)
+{%
+  include button.html
+  link="projects"
+  text="Browse our projects"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
 
 {% endcapture %}
+
 {%
   include feature.html
-  image="images/crazyflie.gif"
-  title=""
+  image="images/photo.jpg"
+  link="projects"
+  title="Our Projects"
   flip=true
+  style="bare"
   text=text
 %}
-
-## Rinforcement Learning Control and Its Applications 強化學習控制與應用
-
+-->
+<!--
 {% capture text %}
-Reinforcement Learning Control  
 
-Actor-Critic Neural Network  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-Deep Reinforcement Learning Control and Applications
+{%
+  include button.html
+  link="team"
+  text="Meet our team"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
 
 {% endcapture %}
+
 {%
   include feature.html
-  image="images/crazyflie.gif"
-  title=""
-  flip=true
+  image="images/photo.jpg"
+  link="team"
+  title="Our Team"
   text=text
 %}
+
+
+-->
