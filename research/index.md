@@ -12,6 +12,15 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/crazyflie.gif"
+  title=""
+  flip=true
+  text=text
+%}
 ## Highlighted
 
 {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
