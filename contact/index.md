@@ -59,7 +59,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   include figure.html
   image="images/white.jpg"
   caption="Lorem ipsum"
-  caption2="Lorem"
+  title="Guan-Kai Su"
   
 %}
 
