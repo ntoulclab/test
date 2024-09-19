@@ -52,6 +52,20 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% endcapture %}
 
+
+{% capture col3 %}
+
+{%
+  include figure.html
+  image="images/white.jpg"
+  caption="Lorem ipsum"
+  text= "mail:https://www.google.com/maps"
+  
+%}
+
+{% endcapture %}
+
+
 {% include cols.html col1=col1 col2=col2 %}
 
 {% include section.html dark=true %}
