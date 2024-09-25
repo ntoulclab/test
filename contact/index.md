@@ -33,13 +33,13 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% include section.html %}
 
 {% capture col1 %}
-Mail: 11153087@mail.ntou.edu.tw
+
 {%
   include figure.html
   image="images/photo.jpg"
   caption="Lorem ipsum"
 %}
-
+Mail: 11153087@mail.ntou.edu.tw
 {% endcapture %}
 
 {% capture col2 %}
