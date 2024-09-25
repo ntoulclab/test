@@ -58,7 +58,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include figure.html
   image="images/white.jpg"
-  caption="Lorem ipsum"
+  caption="Lorem ipsum
+  email:1111"
   title="Guan-Kai Su"
   
 %}
