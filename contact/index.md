@@ -39,7 +39,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   image="images/photo.jpg"
   caption="Lorem ipsum"
 %}
- <div style="text-align:center;">
+  <div style="text-align:center; margin-top: -10px;">
     <p>你的名字</p>
     <p>your.email@example.com</p>
  </div>
