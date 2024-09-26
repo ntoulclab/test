@@ -39,10 +39,9 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   image="images/photo.jpg"
   caption="Lorem ipsum"
 %}
-  <div style="text-align:center; margin-top: -10px;">
-    <p>你的名字</p>
-    <p>your.email@example.com</p>
- </div>
+  <p style="margin: 5px 0 0;">你的名字</p>
+    <p style="margin: 0;">your.email@example.com</p>
+  </div>
 {% endcapture %}
 
 {% capture col2 %}
