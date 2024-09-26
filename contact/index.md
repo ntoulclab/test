@@ -38,7 +38,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   include figure.html
   image="images/photo.jpg"
   caption="Lorem ipsum"
-  Mail: 11153087@mail.ntou.edu.tw
+  text="Mail: 11153087@mail.ntou.edu.tw"
 %}
 
 {% endcapture %}
