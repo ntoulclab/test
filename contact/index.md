@@ -39,10 +39,10 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   image="images/photo.jpg"
   caption="Lorem ipsum"
 %}
-{% capture text %}
-Lorem ipsum
-Mail: 11153087@mail.ntou.edu.tw
-{% endcapture %}
+ <div style="text-align:center;">
+    <p>你的名字</p>
+    <p>your.email@example.com</p>
+ </div>
 {% endcapture %}
 
 {% capture col2 %}
